@@ -1,0 +1,51 @@
+.card {
+    background-color: transparent;
+    color: white;
+    width: 14.148rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #707070;
+    padding: 0.916rem 0;
+}
+
+.card-item {
+    display: flex;
+}
+
+.border {
+    background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
+    width: 1.2725rem;
+    height: 10.3rem;
+    align-self: flex-end;
+    // margin-top: 34.2px;
+}
+
+.image {
+    background: transparent;
+    // height: 140.78px;
+    padding: 0.3rem 0.7rem 0.81rem;
+    border: 1px solid #707070;
+    border-bottom: none;
+}
+
+.vibes {
+    padding-left: 1.324rem;
+    // margin-bottom: .92rem;
+    // height: 4.6825rem;
+    // width: 14rem;
+    background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
+    // padding-bottom: 8.35px;
+}
+
+.vibes h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    // margin-top: 12.56px;
+    // margin-bottom: 10px;
+}
+
+.vibes p {
+    font-weight: 500;
+    font-size: 12px;
+}

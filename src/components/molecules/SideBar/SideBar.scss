@@ -1,0 +1,64 @@
+aside {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #0F0F0F;
+    padding: 1.125rem 1.94rem;
+    color: white;
+    display: flex;
+    gap: 1.31rem;
+}
+
+nav {
+    flex-grow: 1;
+    background: url("/vectors/pattern.svg") #0F0F0F;
+    background-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    // row-gap: .8rem;
+    padding: 0rem 2.461rem 6.53rem 2.25rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 1.065rem;
+}
+
+.generic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.0625rem;
+}
+
+.home {
+    margin-top: 2.625rem;
+    padding-bottom: 1.161rem;
+}
+
+.library {
+    border-top: rgba(40, 40, 40, 1) 1px solid;
+    padding-top: 1.218rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    border-bottom: rgba(40, 40, 40, 1) 1px solid;
+    margin-top: 2.625rem;
+    padding-bottom: 1.25rem;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-top: 0.68rem;
+}

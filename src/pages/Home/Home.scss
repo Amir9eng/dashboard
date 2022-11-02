@@ -1,0 +1,84 @@
+.section-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    margin-left: 0.625rem;
+}
+
+.arrow {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.75rem;
+}
+
+.dark {
+    background-color: rgba(15, 15, 15, 1);
+    width: 3rem;
+    height: 2.56rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    border: 1px solid #0F0F0F;
+    display: flex;
+    align-items: center;
+    width: 29.4375rem;
+    height: 3.5rem;
+    margin-left: 4.625rem;
+    margin-top: 1.3125rem;
+}
+
+.pad {
+    margin-left: 1.1rem;
+}
+
+.search input {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.main {
+    background: url("../../components/atoms/images/hero.png");
+    height: 15.9375rem;
+    position: relative;
+    margin-top: 1.25rem;
+}
+
+.title {
+    margin-left: 2.56rem;
+    margin-top: 3.25rem;
+}
+
+.omah {
+    position: absolute;
+    right: 2.0625rem;
+    bottom: 0.875rem;
+}
+
+.welcome {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    color: white;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cheers-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,8 @@
+.Layout {
+    height: 100vh;
+    width: 100vw;
+    // overflow: hidden;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 18.43rem 1fr;
+}

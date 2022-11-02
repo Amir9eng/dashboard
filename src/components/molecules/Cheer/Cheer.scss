@@ -1,0 +1,28 @@
+.cheer {
+    background-color: transparent;
+    color: white;
+    width: 14.148rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #707070;
+    padding: 0.916rem 0 0 0;
+}
+
+.cheer-item {
+    display: flex;
+}
+
+.cheer-border {
+    background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
+    width: 1.2725rem;
+    height: 10.3rem;
+    align-self: flex-end;
+}
+
+.cheer-image {
+    background: transparent;
+    padding: 0.3rem 0.7rem 0.81rem;
+    border: 1px solid #707070;
+    border-bottom: none;
+}
