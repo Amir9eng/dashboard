@@ -62,7 +62,7 @@ const Card = () => {
             </CardImage>
             <Border style={{ background: `${bg}` }}></Border>
           </CardItem>
-          <Vibes>
+          <Vibes style={{ background: `${bg}` }}>
             <VibesHeading>{title}</VibesHeading>
             <VibesText>{desc}</VibesText>
           </Vibes>
