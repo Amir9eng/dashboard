@@ -6,3 +6,10 @@
     display: grid;
     grid-template-columns: 18.43rem 1fr;
 }
+
+@media (max-width: 428px) {
+    .Layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5.1875rem 1fr;
+    }
+}

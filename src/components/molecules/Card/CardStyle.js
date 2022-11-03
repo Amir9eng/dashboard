@@ -11,7 +11,7 @@ export const CardContainer = styled.div `
   padding: 0.916rem 0;
   @media (max-width: ${"650px"}) {
     width: 12rem;
-    margin-left: 15px;
+    margin-left: 0.9375rem;
   }
 `;
 export const CardItem = styled.div `
@@ -41,33 +41,3 @@ export const VibesText = styled.p `
   font-weight: 500;
   font-size: 12px;
 `;
-
-// .card {}
-// .card-item {
-//     display: flex;
-// }
-// .border {
-//     background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
-//     width: 1.2725 rem;
-//     height: 10.3 rem;
-//     align-self: flex-end;
-// }
-// .image {
-//     background: transparent;
-//     // height: 140.78px;
-//     padding: 0.3 rem 0.7 rem 0.81 rem;
-//     border: 1 px solid #707070;
-//     border-bottom: none;
-// }
-// .vibes {
-//     padding-left: 1.324rem;
-//     background: linear-gradient(89.79deg, #AB491C 19.39%, #DDAE45 123.38%);
-// }
-// .vibes h2 {
-//     font-weight: 700;
-//     font-size: 1rem;
-// }
-// .vibes p {
-//     font-weight: 500;
-//     font-size: 12px;
-// }

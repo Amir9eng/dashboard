@@ -63,15 +63,15 @@ nav a {
     margin-top: 0.68rem;
 }
 
-@media (max-width: 421px) {
-    aside {
+@media (max-width: 428px) {
+    nav {
         display: none;
+        background-color: red;
     }
     header p {
         display: none;
     }
     header {
         display: flex;
-        flex-grow: 1;
     }
 }
