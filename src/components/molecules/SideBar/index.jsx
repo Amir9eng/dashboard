@@ -127,14 +127,13 @@ const SideBar = () => {
           ))}
         </div>
         <div>
-          <div className='generic list'>
-            {' '}
-            <NavLink>
+          <NavLink>
+            <div className='list'>
+              <ListIcon />
+              <span className='flex'>My PlayLists</span>
               <SearchIcon />
-              <span>My PlayLists auto 1fr auto</span>
-              <SearchIcon />
-            </NavLink>
-          </div>
+            </div>
+          </NavLink>
           <div className='play'>
             {playlists.map(({ title }, i) => (
               <NavLink key={i}>
