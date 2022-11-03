@@ -62,3 +62,16 @@ nav a {
     gap: 1.1rem;
     margin-top: 0.68rem;
 }
+
+@media (max-width: 421px) {
+    aside {
+        display: none;
+    }
+    header p {
+        display: none;
+    }
+    header {
+        display: flex;
+        flex-grow: 1;
+    }
+}

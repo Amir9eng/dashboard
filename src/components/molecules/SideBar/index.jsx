@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HomeIcon from '../../atoms/vectors/HomeIcon'
 import { NavLink } from 'react-router-dom'
 
@@ -14,6 +14,8 @@ import Avatar from '../../atoms/images/avatar.png'
 import SearchIcon from './../../atoms/vectors/SearchIcon'
 
 const SideBar = () => {
+  const [color, setColor] = useState('')
+
   const first = [
     {
       icon: HomeIcon,
@@ -27,7 +29,8 @@ const SideBar = () => {
   const library = [
     {
       icon: LibraryIcon,
-      title: 'Your Library'
+      title: 'Your Library',
+      speaker: SpeakerIcon
     },
     {
       icon: LikedIcon,
@@ -36,20 +39,16 @@ const SideBar = () => {
     },
     {
       icon: PlayedIcon,
-      title: 'Recently Played'
+      title: 'Recently Played',
+      speaker: SpeakerIcon
     },
     {
       icon: PlayListIcon,
-      title: 'Create Playlist'
+      title: 'Create Playlist',
+      speaker: SpeakerIcon
     }
   ]
-  const list = [
-    {
-      icon: ListIcon,
-      title: 'My Playlists',
-      search: SearchIcon
-    }
-  ]
+
   const playlists = [
     {
       title: 'Riffs & Runs'
@@ -115,23 +114,26 @@ const SideBar = () => {
           ))}
         </div>
         <div className='generic library'>
-          {library.map(({ icon: Icon, title }, i) => (
-            <NavLink key={i}>
+          {library.map(({ icon: Icon, title, speaker: Speaker }, i) => (
+            <NavLink
+              key={i}
+              onClick={() => setColor(i)}
+              style={{ color: color === i && '#FBBA12' }}
+            >
               <Icon />
               <span>{title}</span>
+              {color === i && <Speaker />}
             </NavLink>
           ))}
         </div>
         <div>
           <div className='generic list'>
             {' '}
-            {list.map(({ title, icon: Icon, search: Search }, i) => (
-              <NavLink key={i}>
-                <Icon />
-                <span>{title}</span>
-                <Search />
-              </NavLink>
-            ))}
+            <NavLink>
+              <SearchIcon />
+              <span>My PlayLists auto 1fr auto</span>
+              <SearchIcon />
+            </NavLink>
           </div>
           <div className='play'>
             {playlists.map(({ title }, i) => (

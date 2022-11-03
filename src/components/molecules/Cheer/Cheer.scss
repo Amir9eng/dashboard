@@ -26,3 +26,9 @@
     border: 1px solid #707070;
     border-bottom: none;
 }
+
+@media (max-width: 650px) {
+    .cheer {
+        width: 12rem;
+    }
+}

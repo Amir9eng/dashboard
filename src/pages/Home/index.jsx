@@ -6,8 +6,13 @@ import ArrowRightIcon from './../../components/atoms/vectors/ArrowRightIcon'
 import SearchIcon from '../../components/atoms/vectors/SearchIcon'
 import Title from '../../components/atoms/images/Title.png'
 import omah from '../../components/atoms/images/omah.png'
-import Card from './../../components/molecules/Card/index'
 import Cheer from '../../components/molecules/Cheer'
+import Card from '../../components/molecules/Card'
+
+import HomeMobileIcon from './../../components/atoms/vectors/HomeMobileIcon'
+import DiscoverMobileIcon from './../../components/atoms/vectors/DiscoverMobileIcon'
+import Album from './../../components/atoms/vectors/Album'
+import PlayListMobileIcon from './../../components/atoms/vectors/PlayListMobileIcon'
 
 const Home = () => {
   return (
@@ -38,20 +43,24 @@ const Home = () => {
           </div>
         </div>
         <p className='welcome'>Welcome Back!</p>
+        <p className='see'>See more</p>
         <div className='card-list'>
           <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
-        <p className='welcome'>Cheers to the Weekend</p>
+        <div className='more'>
+          <p className='weekend'>Cheers to the Weekend</p>
+          <p className='see'>See more</p>
+        </div>
         <div className='cheers-list'>
-          <Cheer />
-          <Cheer />
-          <Cheer />
           <Cheer />
         </div>
       </section>
+      <div className='mobile'>
+        <HomeMobileIcon />
+        <DiscoverMobileIcon />
+        <Album />
+        <PlayListMobileIcon />
+      </div>
     </Layout>
   )
 }

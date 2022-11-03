@@ -72,6 +72,17 @@
     color: white;
 }
 
+.weekend {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    color: white;
+}
+
+.see {
+    display: none;
+}
+
 .card-list {
     display: flex;
     flex-wrap: wrap;
@@ -81,4 +92,58 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .top {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    .main {
+        background: url("../../components/atoms/images/mobile.png");
+    }
+    .card-list {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .welcome {
+        margin-left: 2rem;
+        font-size: 20px;
+    }
+    .more {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .weekend {
+        margin-left: 2rem;
+        font-size: 14px;
+    }
+    .see {
+        display: flex;
+        justify-content: end;
+        color: white;
+        margin-right: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .cheers-list {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 0;
+    }
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: 92px;
+        background: #000000;
+    }
 }
