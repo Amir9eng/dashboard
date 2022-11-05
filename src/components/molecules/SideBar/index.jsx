@@ -148,11 +148,3 @@ const SideBar = () => {
 }
 
 export default SideBar
-
-// {playlists.map(({ icon: Icon, title, speaker: Speaker }, i) => (
-//   <NavLink key={i}>
-//     <Icon />
-//     <span>{title}</span>
-//     <Speaker />
-//   </NavLink>
-// ))}

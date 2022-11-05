@@ -91,12 +91,14 @@
 .card-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 1rem;
 }
 
 .cheers-list {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+    row-gap: 1rem;
 }
 
 .mobile {
@@ -134,7 +136,7 @@
     }
     .see {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         color: white;
         padding-right: 1rem;
         font-style: normal;
